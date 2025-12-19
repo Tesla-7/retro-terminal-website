@@ -1,20 +1,20 @@
 export const CONFIG = {
-	defaultTheme: 'ocean',
+	defaultTheme: 'terminal',
 	seasonalTheme: false, // will change the default theme based on the date
 
 	// effects
 	effectsDisabledByDefault: false,
 	effectsDisabledByDefaultMobile: true,
-	displayEffectsSwitch: true,
+	displayEffectsSwitch: false,
 
 	// additional effects
 	crtEffect: true,
-	noiseEffect: true,
-	grungeOverlay: true,
+	noiseEffect: false,
+	grungeOverlay: false,
 
 	// tabs
 	defaultHash: '#home',
-	animationOnTabChange: true, // disabled when effects are disabled
+	animationOnTabChange: false, // disabled when effects are disabled
 	writeAnimationOnTabChange: false, // animationOnTabChange must be true | may cause performance issues
 
 	// blog

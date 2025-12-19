@@ -61,17 +61,6 @@
 			}
 		</style>
 	</noscript>
-	<video
-		id="rain-vid"
-		src="/assets/videos/rain-bg.mp4"
-		poster="/assets/images/rain-bg-static.png"
-		preload="metadata"
-		onloadstart="this.playbackRate = 0.8;"
-		autoplay
-		muted
-		loop
-		playsinline>
-	</video>
 	<img id="grunge-overlay" loading="lazy">
 	<img id="noise-overlay" loading="lazy">
 	<div id="snow-container"></div>
@@ -83,17 +72,11 @@
  / /     / /  
 /_/     /_/   
               </pre>
-			<h1 id="sub-title">Coding, photography, 3D-art and personal projects!</h1>
-			<p id="toggle-effects" class="hide-noscript">Want some fancy effects? Click <a id="toggle-effects-link">HERE</a> to turn them on.</p>
 		</header>
-		<br>
-		<p>Some things you might be interested in:</p>
 		<nav id="nav-tabs">
 			<ul>
 				<li><a id="home-tab" class="tab-switcher" href="#home">Home</a></li>
 				<li><a id="projects-tab" class="tab-switcher" href="#projects">Projects</a></li>
-				<li><a id="pictures-tab" class="tab-switcher" href="#pictures">Pictures</a></li>
-				<li class="hide-noscript"><a id="blog-tab" class="tab-switcher" href="#blog">Blog</a></li>
 				<li class="no-mobile"><a id="resources-tab" class="tab-switcher" href="#resources">Resources</a></li>
 				<li><a id="about-tab" class="tab-switcher" href="#about">About</a></li>
 			</ul>
@@ -129,16 +112,6 @@
 								<p><em>★ MAY 20TH, 2024:</em> Redesigned the main- and about-page. Changed from news-tab to home-tab, now presenting more of a 'hub' design.</p>
 							</div>
 						</details>
-					</div>
-					<div class="grid-row-box grid-row-box-shrink hide-noscript">
-						<div id="theme-selector">
-							<details open>
-								<summary>
-									<h2>Themes</h2>
-								</summary>
-								<div id="theme-list"></div>
-							</details>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -207,54 +180,6 @@
 			</ul>
 		</div>
 
-		<div id="pictures" class="tabs">
-			<h2>PICTURES</h2>
-			<div id="pictures-list">
-				<nav class="hide-noscript">
-					<ul>
-						<li><a class="tab-active pic-coll-tabs" data-id="blender">Blender</a></li>
-						<li><a class="pic-coll-tabs" data-id="photography">Photography</a></li>
-					</ul>
-				</nav>
-				<div id="blender" class="pic-coll">
-					<h3>Here's a collection of photos I made with the open-source software <a href="https://blender.org" target="_blank">Blender</a>! Color-grading was done using <a href="https://www.adobe.com/de/products/photoshop-lightroom-classic.html" target="_blank">Lightroom-Classic</a>!</h3>
-					<div class="row">
-						<img loading="lazy" src="/assets/images/pictures-tab/richardapps-spaceship-testrender-widescreen.jpg" onclick="window.open('https://www.artstation.com/artwork/qe0eo2', '_blank')" alt="A cinematic image of a spaceship flying trough a space-station, created by me with Blender 3D." preload="none">
-						<img loading="lazy" src="/assets/images/pictures-tab/richardapps-cinematic-space-render3.jpg" onclick="window.open('https://www.artstation.com/artwork/rJzJOe', '_blank')" alt="A cinematic image of a spaceship flying above the ground with mountains in the background, created by me with Blender 3D." preload="none">
-					</div>
-					<div class="row">
-						<img loading="lazy" src="/assets/images/pictures-tab/richardapps-default-cube-final-widescreen.jpg" onclick="window.open('https://www.artstation.com/artwork/491knk', '_blank')" alt="A destroyed default-cube flying over an ocean, created by me with Blender 3D." preload="none">
-						<img loading="lazy" src="/assets/images/pictures-tab/richardapps-hms-victory-10.jpg" onclick="window.open('https://www.artstation.com/artwork/49n2Lk', '_blank')" alt="A cinematic image of a 3D-modeled ship inspired by the HMS Victory, created by me with Blender 3D." preload="none">
-					</div>
-				</div>
-				<div id="photography" class="pic-coll">
-					<h3>Here are some images I took in the USA!</h3>
-					<p class="no-mobile"><em>Hover over them to view more information!</em></p>
-					<div class="row row-photography">
-						<div class="img-container">
-							<img src="/assets/images/pictures-tab/P1020060.jpg" loading="lazy" alt="A monochrome picture of the Golden-Gate-Bridge.">
-							<div class="img-desc"><p>The famous Golden-Gate-Bridge! Was a bit cloudy that day, but that probably made it even better!</p></div>
-						</div>
-						<div class="img-container">
-							<img src="/assets/images/pictures-tab/P1020722.jpg" loading="lazy" alt="A close-up picture of a chipmunk.">
-							<div class="img-desc"><p>A chipmunk! We found them in a lot of different places. They were really friendly, weren't even scared of us, thus making photographing them pretty easy!</p></div>
-						</div>
-						<div class="img-container">
-							<img src="/assets/images/pictures-tab/P1020951.jpg" loading="lazy" alt="A minimalistic picture of a helicopter.">
-							<div class="img-desc"><p>Nothing much to say here, but sometimes even the simple, minimalistic photos turn out quite cool!</p></div>
-						</div>
-						<div class="img-container">
-							<img src="/assets/images/pictures-tab/P1020095.jpg" loading="lazy" alt="A picture of a bird in cloudy, dark weather.">
-							<div class="img-desc"><p>We found this cool-looking bird! Fits well with the cloudy weather and the black stone, monochrome from nature!</p></div>
-						</div>
-					</div>
-					<p>All these were taken with a Panasonic Lumix DMC-TZ71, a surprisingly good travel camera for a low price.</p>
-					<br>
-				</div>
-			</div>
-			<p>Click on one of the pictures to see information about it, or visit my <a href="https://www.artstation.com/richardapps" target="_blank" title="Open my ArtStation profile.">ArtStation</a> profile. I'm also on <a href="https://instagram.com/luqiedesign" target="_blank">Instagram</a>!</p>
-		</div>
-
 		<div id="resources" class="tabs">
 			<h2>Resources</h2>
 			<p>Here are some good websites and useful resources I use regularly:</p>
@@ -290,11 +215,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
-
-		<div id="blog" class="tabs">
-			<h1>Blog</h1>
-			<div id="blog-window"></div>
 		</div>
 
 		<div id="about" class="tabs">

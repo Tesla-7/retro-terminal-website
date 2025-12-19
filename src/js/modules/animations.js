@@ -47,7 +47,7 @@ export function writeAnimation(element, delay = 5, fadeDuration = 250, blur = fa
 	}, content.length * delay + fadeDuration);
 }
 
-export function tabAnimation(tab, fadeInDelay = 16) {
+export function tabAnimation(tab, fadeInDelay = 8) {
 	const effectsDisabled = getEffectsDisabledState();
 
 	document.querySelectorAll('.fade-in.visible').forEach((element) => {
@@ -55,7 +55,8 @@ export function tabAnimation(tab, fadeInDelay = 16) {
 		element.classList.remove('fade-in-anim');
 	});
 
-	let elements = document.getElementById(tab).querySelectorAll('*');
+	// Only animate visible elements to reduce layout thrashing
+	let elements = document.getElementById(tab).querySelectorAll('h1, h2, h3, h4, h5, h6, p, a, li, summary');
 
 	if (!effectsDisabled) {
 		let delay = 0;

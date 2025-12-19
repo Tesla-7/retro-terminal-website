@@ -9,10 +9,10 @@
 :root {
 	/* Theme colors */
 	/* Only used as fallback, will be overwritten (consider editing these values in /src/js/modules/theme.js) */
-	--main-color: #72b6ff;
-	--main-color-40: #72b6ff80;
-	--main-color-20: #72b6ff33;
-	--bg-color: 15, 129, 236; /* example: rgba(var(--bg-color), 0.5) to use the background-color with 50% opacity */
+	--main-color: #6dfd60;
+	--main-color-40: #6dfd6066;
+	--main-color-20: #6dfd6033;
+	--bg-color: 24, 100, 18; /* terminal theme fallback */
 	--bg-opacity: 0.15;
 	--selection: #3b6d8b;
 
@@ -21,7 +21,6 @@
 	--info-color: #ffffff;
 
 	--noise-opacity: 0.65;
-	--background-video-opacity: 0.275;
 	--grunge-overlay-opacity: 0.9;
 
 	--tab-background-blur: 4px;
@@ -50,7 +49,6 @@ body {
 }
 
 /* BACKGROUND AND OVERLAYS */
-#rain-vid,
 #noise-overlay,
 #grunge-overlay {
 	position: fixed;
@@ -68,13 +66,7 @@ body {
 
 	z-index: 10;
 
-	display: none; /* Hide background videos by default, will be overwritten in effects.css if effects are not disabled */
-}
-
-#rain-vid {
-	opacity: var(--background-video-opacity);
-	object-fit: cover;
-	z-index: -1;
+	display: none; /* Hide background overlays by default, will be overwritten in effects.css if effects are not disabled */
 }
 
 #grunge-overlay {
@@ -284,11 +276,19 @@ hr.dotted {
 
 /* ASCII AND INTRODUCTION */
 #title {
-	font-size: 1.3em;
+	font-size: 1.65em;
 	font-family: 'Courier New', Courier, monospace;
 	-webkit-user-select: none; /* Safari */
 	user-select: none;
-	margin-bottom: 1em;
+	margin-bottom: 0em;
+	text-align: center;
+}
+
+#title-divider {
+	border: none;
+	border-bottom: 1px solid var(--main-color);
+	margin-bottom: 1.5em;
+	opacity: 0.6;
 }
 
 #sub-title {

@@ -9,7 +9,7 @@ const THEMES = {
 		selection: '#3b6d8b',
 	},
 	terminal: {
-		bgColor: 'rgb(61, 150, 51)',
+		bgColor: 'rgb(24, 100, 18)',
 		mainColor: '#6dfd60',
 		selection: '#3b8b42',
 	},
@@ -63,13 +63,10 @@ export function changeTheme(theme, save = true) {
 	}
 
 	// special cases
-	const rainVideo = document.getElementById('rain-vid');
 	const snowContainer = document.getElementById('snow-container');
-	rainVideo.style.display = 'none';
 	snowContainer.innerHTML = '';
 	switch (theme) {
 		case 'rainy':
-			rainVideo.style.display = 'block';
 			break;
 		case 'winter':
 			snowAnimation();
@@ -86,6 +83,8 @@ export function changeTheme(theme, save = true) {
 
 export function addThemeList() {
 	const THEME_LIST = document.getElementById('theme-list');
+	if (!THEME_LIST) return; // theme list removed from DOM — nothing to do
+
 	THEME_LIST.innerHTML = '';
 
 	if (THEME_LIST) {
@@ -125,9 +124,9 @@ export function initTheme() {
 		console.error('Default theme set in /src/js/config.js invalid!');
 	}
 
-	let THEME =
-		localStorage.getItem('theme') ||
-		(Object.keys(THEMES).includes(CONFIG.defaultTheme) ? CONFIG.defaultTheme : Object.keys(THEMES)[0]);
+	let THEME = Object.keys(THEMES).includes(CONFIG.defaultTheme)
+		? CONFIG.defaultTheme
+		: Object.keys(THEMES)[0];
 
 	// seasonal default theme
 	if (CONFIG.seasonalTheme && !localStorage.getItem('theme')) {
