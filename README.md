@@ -1,13 +1,11 @@
-# RichardApps - Webpage
+# T7 - Webpage
 
-Github-Repository of my personal webpage. Including news, projects, picture grid, about and contact information.
+Github-Repository of my personal webpage. 
 Made using vanilla HTML/CSS and JavaScript. Also includes basic responsiveness.
 
-Featuring a design inspired by old vintage terminals and cyberpunk!
-Now supports themes.
 
 You can view the full website here:
-[richardapps.net](https://www.t7cyber.net)
+[t7cyber.net](https://www.t7cyber.net)
 
 ## Screenshots
 
@@ -23,12 +21,6 @@ You can view the full website here:
 - [ ] Personalize site contents for my own uses
 - [ ] Further clean up code and add comments
 
-## Contributing
-
-Contributions are always welcome!
-
-Refer to [CONTRIBUTING.md](CONTRIBUTING.md).
-
 ## License
 
 #### GNU GPLv3 (GNU General Public License v3.0)
@@ -37,7 +29,7 @@ You're free to copy, modify, distribute, and use the source code, provided that 
 
 ## Acknowledgments
 
-#### Original Site
+#### Original Site (RichardApps)
 
 - The original code for the original site this was forked from made by RichardApps https://github.com/Richard-Apps/richardapps-web 
 
