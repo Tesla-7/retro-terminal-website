@@ -7,18 +7,21 @@ Featuring a design inspired by old vintage terminals and cyberpunk!
 Now supports themes.
 
 You can view the full website here:
-[richardapps.net](https://richardapps.net)
+[richardapps.net](https://www.t7cyber.net)
 
 ## Screenshots
 
 ![App Screenshot](/assets/images/github-preview/preview.png)
 ![App Screenshot](/assets/images/github-preview/preview-2.png)
+![App Screenshot](/assets/images/github-preview/preview-3.png)
 
 ## Roadmap
 
-- [x] Add a dynamic system for news and blog-posts
-- [x] Tidy up the [style.css](/assets/css/style.css) file
-- [ ] Improve the experience for different screen resolutions and devices (1080p screens, mobile)
+- [x] Optimize effects and animations
+- [x] Re-style user interface
+- [x] Fix bugs with source (such as config file not applying)
+- [ ] Personalize site contents for my own uses
+- [ ] Further clean up code and add comments
 
 ## Contributing
 
@@ -34,14 +37,15 @@ You're free to copy, modify, distribute, and use the source code, provided that 
 
 ## Acknowledgments
 
+#### Original Site
+
+- The original code for the original site this was forked from made by RichardApps https://github.com/Richard-Apps/richardapps-web 
+
 #### Font
 
 - Font: [Terminus](https://github.com/chrissimpkins/codeface/tree/master/fonts/terminus) by Dimitar Zhekov; compiled by Eric Cheng
 - License: GNU General Public License version 2.0 (GPL-2.0)
 
-#### Background Rain Video
-
-- Video by [RainStockEffect](https://pixabay.com/users/rainstockeffect-34483686/) on Pixabay / [Video-Link](https://pixabay.com/videos/raindrops-drops-rain-water-liquid-158959/)
 
 #### ASCII created with
 
