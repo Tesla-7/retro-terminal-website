@@ -31,7 +31,7 @@ You're free to copy, modify, distribute, and use the source code, provided that 
 
 #### Original Site (RichardApps)
 
-- The original code for the original site this was forked from made by RichardApps https://github.com/Richard-Apps/richardapps-web 
+- The code for the original site this was forked from made by RichardApps https://github.com/Richard-Apps/richardapps-web 
 
 #### Font
 
