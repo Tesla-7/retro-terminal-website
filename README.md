@@ -18,7 +18,7 @@ You can view the full website here:
 - [x] Optimize effects and animations
 - [x] Re-style user interface
 - [x] Fix bugs with source (such as config file not applying)
-- [ ] Personalize site contents for my own uses
+- [x] Personalize site contents for my own uses
 - [ ] Further clean up code and add comments
 
 ## License
