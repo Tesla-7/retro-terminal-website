@@ -2,7 +2,7 @@ import { openPost, initPosts } from './blog.js';
 import { changeTab } from './navigation.js';
 import { CONFIG } from '../config.js';
 
-const DEFAULT_HASH = CONFIG.defaultHash;
+const DEFAULT_HASH = '#home';
 
 export function routing(hash) {
 	const [route, query] = hash.slice(1).split('?');

@@ -4,9 +4,9 @@ import { snowAnimation } from './animations.js';
 // tip: add "editor.defaultColorDecorators": true to your VSCode settings.json file to make the color-picker work
 const THEMES = {
 	ocean: {
-		bgColor: 'rgb(15, 129, 236)',
-		mainColor: '#72b6ff',
-		selection: '#3b6d8b',
+		bgColor: 'rgb(24, 100, 18)',
+		mainColor: '#6dfd60',
+		selection: '#3b8b42',
 	},
 	terminal: {
 		bgColor: 'rgb(24, 100, 18)',
@@ -14,29 +14,29 @@ const THEMES = {
 		selection: '#3b8b42',
 	},
 	cherry: {
-		bgColor: 'rgb(192, 63, 63)',
-		mainColor: '#fd6060',
-		selection: '#8b3b3b',
+		bgColor: 'rgb(24, 100, 18)',
+		mainColor: '#6dfd60',
+		selection: '#3b8b42',
 	},
 	amber: {
-		bgColor: 'rgb(179, 105, 21)',
-		mainColor: '#fda93c',
-		selection: '#946612',
+		bgColor: 'rgb(24, 100, 18)',
+		mainColor: '#6dfd60',
+		selection: '#3b8b42',
 	},
 	deepsea: {
-		bgColor: 'rgb(9, 95, 92)',
-		mainColor: '#cbe9d1',
-		selection: '#56705a',
+		bgColor: 'rgb(24, 100, 18)',
+		mainColor: '#6dfd60',
+		selection: '#3b8b42',
 	},
 	rainy: {
-		bgColor: 'rgb(15, 129, 236)',
-		mainColor: '#a4cdf8',
-		selection: '#3b6d8b',
+		bgColor: 'rgb(24, 100, 18)',
+		mainColor: '#6dfd60',
+		selection: '#3b8b42',
 	},
 	winter: {
-		bgColor: 'rgb(150, 150, 150)',
-		mainColor: '#c0c0c0',
-		selection: '#a0a0a0',
+		bgColor: 'rgb(24, 100, 18)',
+		mainColor: '#6dfd60',
+		selection: '#3b8b42',
 	},
 };
 

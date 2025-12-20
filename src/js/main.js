@@ -7,6 +7,9 @@ import { initRouting } from './modules/routing.js';
 import { initTooltips } from './modules/utils.js';
 
 document.addEventListener('DOMContentLoaded', () => {
+	if (!location.hash) {
+		location.hash = "#home";
+	}
 	// Force-config: remove any persisted overrides so CONFIG always wins
 	try {
 		localStorage.removeItem('theme');
